@@ -616,3 +616,29 @@ input.card-toogle:checked ~ .card:active {
   color: black;
   margin: 0;
 }
+
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  /* Modify the font size and margins to fit better on smaller screens */
+  .title h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .title p {
+    font-size: 14px;
+  }
+  .title h2 {
+    font-size: 22px;
+  }
+
+  /* Adjust padding and margins for better spacing */
+  .button-container {
+    margin: 20px 0;
+  }
+}
+
+/* Ensure the .section elements take the full width of the screen on mobile devices */
+.section {
+  width: 100%;
+}
