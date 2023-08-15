@@ -583,6 +583,7 @@ input.card-toogle:checked ~ .card:active {
   border: 1px solid #ccc;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8);
+  z-index: 20000;
 }
 
 .conclusion-member {
@@ -606,14 +607,26 @@ input.card-toogle:checked ~ .card:active {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: white;
   padding: 5px 10px;
   border-radius: 5px;
+  z-index: 20000;
 }
 
 .disclaimer-text {
-  font-size: 16px;
-  color: black;
+  font-size: 20px;
+  color: white;
   margin: 0;
 }
+
+.disclaimerimg {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 20000;
+}
+
+
+
 
